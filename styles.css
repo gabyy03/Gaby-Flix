@@ -1,26 +1,34 @@
 body {
-    color: rgba(243, 3, 159, 0.939);
-    background: rgb(238, 82, 183);
+    color: rgba(252, 140, 213, 0.939);
+    background: rgb(245, 108, 197);
     margin: 0px;
-    font-family: "Chakra Petch", sans-serif
+    font-family: "Knewave", system-ui;
 };
 
 header {
-    border-bottom: solid 8px rgb(255, 255, 255);
+    border-bottom: solid 8px rgb(247, 141, 183);
     padding: 20px;
     font-size: 32px;
-    color: rgb(222, 10, 151);
+    color: rgba(238, 80, 199, 0.911);
 }
 
 section {
-    background: rgb(97, 234, 28);
+    background: rgb(241, 95, 185);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
     justify-content: center;
-    color:black;
+    color:rgb(241, 175, 222);
 }
 
 .chamada-texto {
-    margin-right: 5%;
+    margin-right: 20px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
 }
