@@ -1,5 +1,5 @@
 body {
-    color: rgba(252, 140, 213, 0.939);
+    color: rgba(237, 4, 155, 0.94);
     background: rgb(245, 108, 197);
     margin: 0px;
     font-family: "Knewave", system-ui;
@@ -13,7 +13,7 @@ header {
 }
 
 section {
-    background: rgb(241, 95, 185);
+    background: rgb(249, 39, 169);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
