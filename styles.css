@@ -1,5 +1,5 @@
 body {
-    color: rgba(237, 4, 155, 0.94);
+    color: rgba(244, 56, 178, 0.966);
     background: rgb(245, 108, 197);
     margin: 0px;
     font-family: "Knewave", system-ui;
@@ -13,7 +13,7 @@ header {
 }
 
 section {
-    background: rgb(249, 39, 169);
+    background: rgb(238, 60, 170);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
@@ -31,4 +31,28 @@ h1{
 
 p{
     font-size: 20px;
+}
+.categoria-videos {
+    display:flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity:1.0;
+    border: 5px solid rgb(255, 146, 211);
+}
+
+.categoria h2{
+    color:rgba(238, 80, 199, 0.911);
 }
